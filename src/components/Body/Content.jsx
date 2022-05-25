@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import classes from './Content.module.css';
 
 function Content() {
@@ -8,7 +9,7 @@ function Content() {
                 something<br/>
                 new.
             </div>
-            <button className={classes.info}>More information about Lotte Giants</button>
+            <button className={classes.info}><Link to="short-page" className={classes.sentence}>More information about Lotte Giants</Link></button>
         </div>
     )
 }

@@ -1,15 +1,13 @@
-import './App.css';
-import Header from './components/Header/Header';
-import Body from './components/Body/Body';
-import Footer from './components/Footer/Footer';
+import {Routes, Route} from 'react-router-dom';
+import Home from './components/Pages/Home';
+import ShortPage from './components/Pages/ShortPage';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/short-page' element={<ShortPage />} />
+    </Routes>
   )
 }
 

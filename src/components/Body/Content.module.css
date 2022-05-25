@@ -21,3 +21,8 @@
     padding: 10px 5px;
     cursor: pointer;
 }
+
+.sentence {
+    text-decoration: none;
+    color: black;
+}

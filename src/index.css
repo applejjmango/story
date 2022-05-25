@@ -6,13 +6,12 @@
   box-sizing: inherit;
 }
 
+#root {
+  height: 100%;
+}
+
 body {
   font-family: "Akshar", sans-serif;
   box-sizing: border-box;
-  background-color: rgb(127, 191, 210);
   height: 100vh;
-}
-
-#root {
-  height: 100%;
 }
