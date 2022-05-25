@@ -1,11 +1,14 @@
-import classes from './ShortPage.module.css';
+import HeaderForShortPage from "../Short-page/Header/HeaderForShortPage";
+import BodyForShortPage from "../Short-page/Body/BodyForShortPage";
+import classes from "./ShortPage.module.css";
 
 function ShortPage() {
-    return (
-        <div className={classes.container}>
-            This is just a sample.
-        </div>
-    );
+  return (
+    <div className={classes.container}>
+      <HeaderForShortPage />
+      <BodyForShortPage />
+    </div>
+  );
 }
 
 export default ShortPage;
