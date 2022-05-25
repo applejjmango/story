@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.description {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.horizontal {
+  width: 5rem;
+  height: 3px;
+  background-color: black;
+  margin-right: 1.5rem;
+}
+
+.svgbutton {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.2rem;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.svgbutton::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+.svgbutton:hover::after {
+  width: 100%;
+}
+
+.svgbutton svg {
+  height: 100%;
+  fill: black;
+}
+
+.smallersvg svg {
+  height: 1.25rem;
+}
+
+.vertical {
+  width: 1px;
+  height: 1.25rem;
+  background-color: black;
+}
+
+.arrow {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: none;
+  background-color: transparent;
+  margin: 0 1rem;
+}
+
+.arrow svg {
+  width: 100%;
+}
+
+.fill,
+.fill:hover,
+.fill:focus,
+.fill:active {
+  text-decoration: none;
+}
+
+.fill {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+}
+
+.fill::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all ease-in-out 0.4s;
+  background-color: black;
+}
+
+.fill:hover {
+  color: white;
+}
+
+.fill:hover::after {
+  width: 100%;
+  z-index: -1;
+}
