@@ -1,10 +1,10 @@
-import classes from "./PlayerImage.module.css";
+import "./PlayerImage.css";
 
 function PlayerImage(props) {
   return (
-    <div className={classes.picture__individual}>
+    <div className="picturecontainer">
       <img
-        className={classes.picuure__png}
+        className={"picture__png"}
         src={`src/components/Short-page/PlayerImages/${props.name}.png`}
       />
     </div>

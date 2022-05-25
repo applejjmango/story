@@ -1,7 +1,7 @@
-import classes from "./TextContainer.module.css";
+import "./TextContainer.css";
 
 function TextContainer(props) {
-  return <div className={classes.textcontainer}>{props.children}</div>;
+  return <div className="textcontainer">{props.children}</div>;
 }
 
 export default TextContainer;
