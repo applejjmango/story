@@ -1,0 +1,10 @@
+.container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
