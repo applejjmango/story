@@ -2,8 +2,9 @@ import TextContainer from "../../../UI/TextContainer";
 
 function DJ() {
   return (
-    <TextContainer>
+    <TextContainer number={7}>
       <p>
+        Name: DONALD SCOTT PETERS, JR <br />
         Position: Outfielder <br />
         Report: His physique overwhelms other players.
         <br />

@@ -2,8 +2,9 @@ import TextContainer from "../../../UI/TextContainer";
 
 function 이대호() {
   return (
-    <TextContainer>
+    <TextContainer number={1}>
       <p>
+        Name: Daeho Lee <br />
         Position: Infielder <br />
         Report: A living legend of Lotte Giants.
         <br />

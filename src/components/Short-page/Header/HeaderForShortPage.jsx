@@ -2,7 +2,7 @@ import classes from "./HeaderForShortPage.module.css";
 
 function HeaderForShortPage() {
   return (
-    <header>
+    <header className={classes.header}>
       <div className={classes.title}>
         <h1>Welcome to</h1>
         <h1>Lotte Giant's</h1>

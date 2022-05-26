@@ -2,8 +2,9 @@ import TextContainer from "../../../UI/TextContainer";
 
 function 한동희() {
   return (
-    <TextContainer>
+    <TextContainer number={5}>
       <p>
+        Name: Donghui Han <br />
         Position: Infielder <br />
         Report: Many fans say that this guy is a future of Lotte Giants.
         <br />

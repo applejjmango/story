@@ -2,7 +2,7 @@ import "./PlayerImage.css";
 
 function PlayerImage(props) {
   return (
-    <div className="picturecontainer">
+    <div className="picturecontainer" data-index={props.number}>
       <img
         className={"picture__png"}
         src={`src/components/Short-page/PlayerImages/${props.name}.png`}

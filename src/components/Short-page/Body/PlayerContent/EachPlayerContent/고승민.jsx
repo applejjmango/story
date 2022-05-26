@@ -2,8 +2,9 @@ import TextContainer from "../../../UI/TextContainer";
 
 function 고승민() {
   return (
-    <TextContainer>
+    <TextContainer number={6}>
       <p>
+        Name: Seungmin Go <br />
         Position: Outfielder <br />
         Report: Since Ahseop Son moved his team, this guy should fill his
         absence.

@@ -2,8 +2,9 @@ import TextContainer from "../../../UI/TextContainer";
 
 function 전준우() {
   return (
-    <TextContainer>
+    <TextContainer number={8}>
       <p>
+        Name: Junwoo Jeon <br />
         Position: Outfielder <br />
         Report: He is a captain of Lotte Giants in 2022.
         <br />

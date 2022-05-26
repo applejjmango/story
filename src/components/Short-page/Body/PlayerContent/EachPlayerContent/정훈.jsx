@@ -2,8 +2,9 @@ import TextContainer from "../../../UI/TextContainer";
 
 function 정훈() {
   return (
-    <TextContainer>
+    <TextContainer number={2}>
       <p>
+        Name: Hoon Jung <br />
         Position: Infielder <br />
         Report: He have gone through many hardships,
         <br />

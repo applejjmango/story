@@ -2,8 +2,9 @@ import TextContainer from "../../../UI/TextContainer";
 
 function 이학주() {
   return (
-    <TextContainer>
+    <TextContainer number={4}>
       <p>
+        Name: Hakju Lee <br />
         Position: Infielder <br />
         Report: He proves why he could challenge the major league baseball.
         <br />
