@@ -11,7 +11,7 @@ function Content() {
       </div>
       <button className={classes.info}>
         <Link to="short-page" className={classes.sentence}>
-          More information {window.innerWidth > 850 ? "" : <br />}about Lotte
+          More information {window.innerWidth > 850 ? null : <br />}about Lotte
           Giants
         </Link>
       </button>
