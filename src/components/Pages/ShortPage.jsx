@@ -7,13 +7,24 @@ import { useState, useEffect } from "react";
 function ShortPage() {
   const textElements = document.querySelectorAll(".textcontainer");
   const pictureElements = document.querySelectorAll(".picturecontainer");
-  let currentItem;
+  let currentItem, ioIndex;
 
   const [refresh, setRefresh] = useState(false);
 
   const refreshHandler = () => {
     setRefresh((prev) => !prev);
+    setTimeout(() => {
+      scrollTo(0, 0);
+    }, 100);
   };
+
+  const io = new IntersectionObserver((entries, _) => {
+    ioIndex = entries[0].target.dataset.index * 1;
+  });
+
+  for (let i = 0; i < textElements.length; i++) {
+    io.observe(textElements.item(i));
+  }
 
   useEffect(() => {
     window.addEventListener("scroll", scrollHandler);
@@ -22,11 +33,18 @@ function ShortPage() {
     };
   }, [refresh]);
 
+  useEffect(() => {
+    currentItem = document.querySelector(".picturecontainer");
+    currentItem.classList.add("visible");
+  }, []);
+
   const scrollHandler = () => {
     let eachText;
     let boundingRect;
 
-    for (let i = 0; i < textElements.length; i++) {
+    for (let i = ioIndex - 1; i < ioIndex + 2; i++) {
+      if (ioIndex - 1 < 0) continue;
+      if (i > 8) continue;
       eachText = textElements[i];
       boundingRect = eachText.getBoundingClientRect();
 
