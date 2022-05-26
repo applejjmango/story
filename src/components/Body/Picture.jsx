@@ -1,5 +1,5 @@
 import React from "react";
-import lotte from "../Assets/lotte_logo.png";
+import lotte from "/assets/images/lotte_logo.png"
 import classes from './Picture.module.css';
 
 function Picture() {

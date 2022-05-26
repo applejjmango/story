@@ -5,8 +5,8 @@ import ShortPage from './components/Pages/ShortPage';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/short-page' element={<ShortPage />} />
+      <Route path='/my-react-app/' element={<Home />} />
+      <Route path='/my-react-app/short-page' element={<ShortPage />} />
     </Routes>
   )
 }

@@ -1,7 +1,7 @@
-import Youtube from "../Assets/Youtube";
-import Instagram from "../Assets/Instagram";
-import Facebook from "../Assets/Facebook";
-import LeftArrow from "../Assets/LeftArrow";
+import Youtube from "../Svg/Youtube";
+import Instagram from "../Svg/Instagram";
+import Facebook from "../Svg/Facebook";
+import LeftArrow from "../Svg/LeftArrow";
 import classes from "./HeaderRight.module.css";
 
 function HeaderRight() {

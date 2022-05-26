@@ -5,7 +5,7 @@ function PlayerImage(props) {
     <div className="picturecontainer" data-index={props.number}>
       <img
         className={"picture__png"}
-        src={`src/components/Short-page/PlayerImages/${props.name}.png`}
+        src={`assets/images/${props.name}.png`}
       />
     </div>
   );
