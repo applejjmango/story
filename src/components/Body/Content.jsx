@@ -11,6 +11,10 @@ function Content() {
     query: "(max-width:850px)",
   });
 
+  const isMobile = useMediaQuery({
+    query: "(max-width:670px)",
+  });
+
   return (
     <div className={classes.container}>
       <div className={classes.slogan}>
@@ -20,8 +24,8 @@ function Content() {
       </div>
       <button className={classes.info}>
         <Link to="short-page" className={classes.sentence}>
-          More information {isTablet ? <br /> : null}about Lotte
-          Giants
+          More information {isMobile ? null : isTablet ? <br /> : null}about
+          Lotte Giants
         </Link>
       </button>
     </div>

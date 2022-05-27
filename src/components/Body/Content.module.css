@@ -48,8 +48,21 @@
 }
 
 @media screen and (max-width: 670px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
+
   .slogan {
     font-size: 1rem;
     font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .info {
+    width: 100%;
+    font-size: 0.75rem;
   }
 }
