@@ -15,7 +15,9 @@
   
 ### Short-page
 * You can enter short-page through the white 'More information about Lotte Giants' button at homepage.
+
 * When you scroll down the page, information about players is described on the screen.
+
 * Before the information, the player who is exactly matched with the information is shown interactively.
 
-### Media query is adapted.
+### Media query is adapted. (PC view is recommended :) )
