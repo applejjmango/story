@@ -105,3 +105,33 @@
   width: 100%;
   z-index: -1;
 }
+
+@media screen and (max-width: 670px) {
+  .horizontal {
+    width: 3rem;
+    margin-right: 1rem;
+  }
+
+  .svgbutton {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .smallersvg svg {
+    height: 0.75rem;
+  }
+
+  .vertical {
+    height: 0.75rem;
+  }
+
+  .arrow {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  .fill {
+    font-size: 0.75rem;
+  }
+}

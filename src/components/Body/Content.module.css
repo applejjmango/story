@@ -46,3 +46,10 @@
     font-size: 0.75rem;
   }
 }
+
+@media screen and (max-width: 670px) {
+  .slogan {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

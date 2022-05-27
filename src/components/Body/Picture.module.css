@@ -15,3 +15,9 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 670px) {
+  .logo {
+    width: 20vw;
+  }
+}

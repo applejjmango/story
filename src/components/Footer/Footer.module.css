@@ -18,5 +18,12 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .container {
+    font-size: 0.75rem;
   }
 }
