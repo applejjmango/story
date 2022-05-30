@@ -21,3 +21,4 @@
 * Before the information, the player who is exactly matched with the information is shown interactively.
 
 ### Media query is adapted. (PC view is recommended :) )
+# story
